@@ -14,7 +14,6 @@ module.exports = {
     ul: require('./src/extra/ul.js'),
     blink: require('./src/extra/blink.js'),
     bold: require('./src/extra/bold.js'),
-    log: require('./src/extra/log.js'),
 
     // Backgrounds
     bgRed: require('./src/bg/bgRed.js'),
@@ -23,7 +22,12 @@ module.exports = {
     bgMagenta: require('./src/bg/bgMagenta.js'),
     bgCyan: require('./src/bg/bgCyan.js'),
     bgWhite: require('./src/bg/bgWhite.js'),
-    bgGreen: require('./src/bg/bgGreen.js')
+    bgGreen: require('./src/bg/bgGreen.js'),
+
+    // Logging
+    success: require('./src/log/success.js'),
+    warn: require('./src/log/warn.js'),
+    error: require('./src/log/error.js')
 };
 
 var logger = new Logger();
