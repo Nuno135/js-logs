@@ -1,6 +1,6 @@
 var Logger = require('../main.js');
 
-Logger.prototype.warn = function(string) {
+Logger.prototype.error = function(string) {
     if (!string)
         throw new Error('Invalid String.');
 
