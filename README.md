@@ -8,7 +8,7 @@ npm install js-logs
 
 ## Usage
 ```js
-var logger = require('loggist');
+var logger = require('js-logs');
 ```
 - Possible Methods (font colors):
 ```js
