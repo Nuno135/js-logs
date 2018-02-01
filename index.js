@@ -27,7 +27,8 @@ module.exports = {
     // Logging
     success: require('./src/log/success.js'),
     warn: require('./src/log/warn.js'),
-    error: require('./src/log/error.js')
+    error: require('./src/log/error.js'),
+    info: require('./src/log/info.js')
 };
 
 var logger = new Logger();
