@@ -10,7 +10,7 @@ npm install js-logs
 ```js
 var logger = require('js-logs');
 
-console.log(logger.red('An example'));
+console.log(logger.red(...));
 ```
 - Possible Methods (font colors):
 ```js
@@ -64,6 +64,8 @@ logger.success(...);
 logger.warn(...);
 
 logger.error(...);
+
+logger.info(...);
 ```
 
 
