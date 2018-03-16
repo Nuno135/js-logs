@@ -14,6 +14,7 @@ module.exports = {
     ul: require('./src/extra/ul.js'),
     blink: require('./src/extra/blink.js'),
     bold: require('./src/extra/bold.js'),
+    clear: require('./src/extra/clear.js'),
 
     // Backgrounds
     bgRed: require('./src/bg/bgRed.js'),
