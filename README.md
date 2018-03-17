@@ -55,6 +55,8 @@ logger.ul(...); // Underlines text
 logger.bold(...);
 
 logger.blink(...); // Makes input blink
+
+logger.clear(); // Clear the terminal
 ```
 
 - Possible Methods (logger):
